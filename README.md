@@ -1,4 +1,4 @@
-# email-troller
+# email-tawler
 
 The code takes an MS Outlook .pst file as input, for each email messages analyzes body and subject fields, and outputs any mentions of company names. The company name appears in a contex, it is surrounded by the 80 preceeding and 80 succeeding characters.
 
