@@ -1,6 +1,6 @@
 # email-tawler
 
-Synopsis: A Named Entity Recognition on MS Outlook PST files
+Synopsis: A Named Entity Recognition on content of MS Outlook PST files
 
 The code takes an MS Outlook .pst file as input, for each email messages it analyzes body and subject fields, and outputs any mentions of company names. The company name appears in a contex, it is surrounded by the 80 preceeding and 80 succeeding characters.
 
