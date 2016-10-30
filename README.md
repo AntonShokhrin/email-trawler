@@ -10,6 +10,6 @@ Finally, I use Stanford NLP library for Named Entity Recognition purposes. Only 
 
 A pom.xml file simplifies compliling and running of the code.
 
-The code is efficient, I was able to complete anlysis of a 6GB .pst file on an 8 year old MacBook with 4GB of memory. Having said that, it is a proof of concept and requires a LOT of improvements:
+The code is efficient, I was able to complete anlysis of a 6GB .pst file on an 8 year old MacBook with 4GB of RAM. Having said that, it is a proof of concept and requires a LOT of improvements:
 
 - loaction of input .pst file, parser settings etc... have all been hardcoded, so any change requires recompilation. A better way is to read these from properties file or command line arguments
