@@ -1,6 +1,6 @@
 # email-troller
 
-The code takes an MS Outlook .pst file as input, for each email messages analyzes body and subject fields, and outputs any mentions of company names. The company name output in a contex, it is surrounded by the 80 preceeding and 80 succeeding characters.
+The code takes an MS Outlook .pst file as input, for each email messages analyzes body and subject fields, and outputs any mentions of company names. The company name appears in a contex, it is surrounded by the 80 preceeding and 80 succeeding characters.
 
 Apache Tika framework parses the .pst file and email messages. A Tika plugin, I wrote, extracts relevant attributes of each email message. Actual email parsing is left up to Lib PST library. 
  
